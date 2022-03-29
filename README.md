@@ -28,3 +28,7 @@ Made using viper to be more testable and to divide responsabilities.
 new tweets showing in tableview with DifferenceKit
 * [DifferenceKit](https://github.com/ra1028/DifferenceKit)
 
+
+
+https://user-images.githubusercontent.com/89471912/160639799-e11f18bc-1f06-4602-9bc1-fa0e949e55f6.mp4
+
