@@ -18,7 +18,6 @@
 		C5B6A9AF27F2DFD800739A81 /* TweetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6A9AD27F2DFD800739A81 /* TweetDetailViewController.swift */; };
 		C5B6A9B027F2DFD800739A81 /* TweetDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5B6A9AE27F2DFD800739A81 /* TweetDetailViewController.xib */; };
 		C5B6A9B527F32A1300739A81 /* TweetListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6A9B427F32A1300739A81 /* TweetListEntity.swift */; };
-		C5B6A9B727F32C7100739A81 /* TweetListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6A9B627F32C7100739A81 /* TweetListProtocols.swift */; };
 		C5B6A9BC27F3321C00739A81 /* ErrorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6A9BB27F3321C00739A81 /* ErrorExtensions.swift */; };
 		C5E9A22E27F1A14C007BBE22 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A22D27F1A14C007BBE22 /* Constants.swift */; };
 		C5E9A26927F1A40F007BBE22 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A23E27F1A40F007BBE22 /* TweetCell.swift */; };
@@ -52,7 +51,7 @@
 		C5E9A28527F1A40F007BBE22 /* TweetParseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A26527F1A40F007BBE22 /* TweetParseHelper.swift */; };
 		C5E9A28627F1A40F007BBE22 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A26627F1A40F007BBE22 /* AlertController.swift */; };
 		C5E9A28727F1A40F007BBE22 /* FileManager+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A26727F1A40F007BBE22 /* FileManager+Utilities.swift */; };
-		C5E9A29627F1C3A6007BBE22 /* NVTweetParseHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A28927F1C3A6007BBE22 /* NVTweetParseHelperTests.swift */; };
+		C5E9A29627F1C3A6007BBE22 /* TweetParseHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A28927F1C3A6007BBE22 /* TweetParseHelperTests.swift */; };
 		C5E9A29727F1C3A6007BBE22 /* MockHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A28A27F1C3A6007BBE22 /* MockHelper.swift */; };
 		C5E9A29827F1C3A6007BBE22 /* IncorrectMockTweets.json in Resources */ = {isa = PBXBuildFile; fileRef = C5E9A28B27F1C3A6007BBE22 /* IncorrectMockTweets.json */; };
 		C5E9A29927F1C3A6007BBE22 /* TweetListWorkerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A28E27F1C3A6007BBE22 /* TweetListWorkerMock.swift */; };
@@ -62,11 +61,11 @@
 		C5E9A29D27F1C3A6007BBE22 /* TweetListViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A29227F1C3A6007BBE22 /* TweetListViewControllerMock.swift */; };
 		C5E9A29E27F1C3A6007BBE22 /* TwitterServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A29427F1C3A6007BBE22 /* TwitterServiceMock.swift */; };
 		C5E9A2AC27F1C3B3007BBE22 /* TweetListWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A2A327F1C3B3007BBE22 /* TweetListWorkerTests.swift */; };
-		C5E9A2AD27F1C3B3007BBE22 /* NVTweetListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A2A427F1C3B3007BBE22 /* NVTweetListInteractorTests.swift */; };
-		C5E9A2AE27F1C3B3007BBE22 /* NVGetRuleRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A2A727F1C3B3007BBE22 /* NVGetRuleRequestTests.swift */; };
-		C5E9A2AF27F1C3B3007BBE22 /* NVAddRuleRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A2A827F1C3B3007BBE22 /* NVAddRuleRequestTests.swift */; };
-		C5E9A2B027F1C3B3007BBE22 /* NVDeleteRuleRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A2A927F1C3B3007BBE22 /* NVDeleteRuleRequestTests.swift */; };
-		C5E9A2B127F1C3B3007BBE22 /* NVConnectStreamRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A2AA27F1C3B3007BBE22 /* NVConnectStreamRequestTests.swift */; };
+		C5E9A2AD27F1C3B3007BBE22 /* TweetListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A2A427F1C3B3007BBE22 /* TweetListInteractorTests.swift */; };
+		C5E9A2AE27F1C3B3007BBE22 /* GetRuleRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A2A727F1C3B3007BBE22 /* GetRuleRequestTests.swift */; };
+		C5E9A2AF27F1C3B3007BBE22 /* AddRuleRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A2A827F1C3B3007BBE22 /* AddRuleRequestTests.swift */; };
+		C5E9A2B027F1C3B3007BBE22 /* DeleteRuleRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A2A927F1C3B3007BBE22 /* DeleteRuleRequestTests.swift */; };
+		C5E9A2B127F1C3B3007BBE22 /* ConnectStreamRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A2AA27F1C3B3007BBE22 /* ConnectStreamRequestTests.swift */; };
 		C5E9A2B327F1C3CB007BBE22 /* MockHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E9A28A27F1C3A6007BBE22 /* MockHelper.swift */; };
 /* End PBXBuildFile section */
 
@@ -105,7 +104,6 @@
 		C5B6A9AD27F2DFD800739A81 /* TweetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDetailViewController.swift; sourceTree = "<group>"; };
 		C5B6A9AE27F2DFD800739A81 /* TweetDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetDetailViewController.xib; sourceTree = "<group>"; };
 		C5B6A9B427F32A1300739A81 /* TweetListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListEntity.swift; sourceTree = "<group>"; };
-		C5B6A9B627F32C7100739A81 /* TweetListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListProtocols.swift; sourceTree = "<group>"; };
 		C5B6A9BB27F3321C00739A81 /* ErrorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorExtensions.swift; sourceTree = "<group>"; };
 		C5E9A22D27F1A14C007BBE22 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C5E9A23E27F1A40F007BBE22 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
@@ -139,7 +137,7 @@
 		C5E9A26527F1A40F007BBE22 /* TweetParseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetParseHelper.swift; sourceTree = "<group>"; };
 		C5E9A26627F1A40F007BBE22 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		C5E9A26727F1A40F007BBE22 /* FileManager+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Utilities.swift"; sourceTree = "<group>"; };
-		C5E9A28927F1C3A6007BBE22 /* NVTweetParseHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVTweetParseHelperTests.swift; sourceTree = "<group>"; };
+		C5E9A28927F1C3A6007BBE22 /* TweetParseHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetParseHelperTests.swift; sourceTree = "<group>"; };
 		C5E9A28A27F1C3A6007BBE22 /* MockHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockHelper.swift; sourceTree = "<group>"; };
 		C5E9A28B27F1C3A6007BBE22 /* IncorrectMockTweets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IncorrectMockTweets.json; sourceTree = "<group>"; };
 		C5E9A28E27F1C3A6007BBE22 /* TweetListWorkerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetListWorkerMock.swift; sourceTree = "<group>"; };
@@ -149,11 +147,11 @@
 		C5E9A29227F1C3A6007BBE22 /* TweetListViewControllerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetListViewControllerMock.swift; sourceTree = "<group>"; };
 		C5E9A29427F1C3A6007BBE22 /* TwitterServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterServiceMock.swift; sourceTree = "<group>"; };
 		C5E9A2A327F1C3B3007BBE22 /* TweetListWorkerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetListWorkerTests.swift; sourceTree = "<group>"; };
-		C5E9A2A427F1C3B3007BBE22 /* NVTweetListInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVTweetListInteractorTests.swift; sourceTree = "<group>"; };
-		C5E9A2A727F1C3B3007BBE22 /* NVGetRuleRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVGetRuleRequestTests.swift; sourceTree = "<group>"; };
-		C5E9A2A827F1C3B3007BBE22 /* NVAddRuleRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVAddRuleRequestTests.swift; sourceTree = "<group>"; };
-		C5E9A2A927F1C3B3007BBE22 /* NVDeleteRuleRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVDeleteRuleRequestTests.swift; sourceTree = "<group>"; };
-		C5E9A2AA27F1C3B3007BBE22 /* NVConnectStreamRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVConnectStreamRequestTests.swift; sourceTree = "<group>"; };
+		C5E9A2A427F1C3B3007BBE22 /* TweetListInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetListInteractorTests.swift; sourceTree = "<group>"; };
+		C5E9A2A727F1C3B3007BBE22 /* GetRuleRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRuleRequestTests.swift; sourceTree = "<group>"; };
+		C5E9A2A827F1C3B3007BBE22 /* AddRuleRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRuleRequestTests.swift; sourceTree = "<group>"; };
+		C5E9A2A927F1C3B3007BBE22 /* DeleteRuleRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteRuleRequestTests.swift; sourceTree = "<group>"; };
+		C5E9A2AA27F1C3B3007BBE22 /* ConnectStreamRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectStreamRequestTests.swift; sourceTree = "<group>"; };
 		D951B396A275F1265CC651A8 /* Pods-TwitterStream-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterStream-Sample.release.xcconfig"; path = "Target Support Files/Pods-TwitterStream-Sample/Pods-TwitterStream-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		DB3202FE6926005ED3EE81D5 /* Pods-TwitterStream-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterStream-SampleTests.release.xcconfig"; path = "Target Support Files/Pods-TwitterStream-SampleTests/Pods-TwitterStream-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		F1FFAE092ED75FA5587E363C /* Pods-TwitterStream-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterStream-SampleTests.debug.xcconfig"; path = "Target Support Files/Pods-TwitterStream-SampleTests/Pods-TwitterStream-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -252,6 +250,48 @@
 			path = TweetDetail;
 			sourceTree = "<group>";
 		};
+		C5B6A9BD27F3433B00739A81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9A24227F1A40F007BBE22 /* TweetListViewController.swift */,
+				C5E9A23F27F1A40F007BBE22 /* TweetListView.swift */,
+				C5E9A23D27F1A40F007BBE22 /* Custom Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5B6A9BE27F3434A00739A81 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9A24027F1A40F007BBE22 /* TweetListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C5B6A9BF27F3435300739A81 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9A24127F1A40F007BBE22 /* TweetListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C5B6A9C027F3436200739A81 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9A24427F1A40F007BBE22 /* TweetListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C5B6A9C127F3437400739A81 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C5B6A9B427F32A1300739A81 /* TweetListEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		C5E9A23927F1A40F007BBE22 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,8 +309,8 @@
 		C5E9A23A27F1A40F007BBE22 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				C5B6A9AA27F2DF3300739A81 /* TweetDetail */,
 				C5E9A23B27F1A40F007BBE22 /* TweetList */,
+				C5B6A9AA27F2DF3300739A81 /* TweetDetail */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -278,15 +318,12 @@
 		C5E9A23B27F1A40F007BBE22 /* TweetList */ = {
 			isa = PBXGroup;
 			children = (
-				C5E9A23D27F1A40F007BBE22 /* Custom Cells */,
-				C5E9A23F27F1A40F007BBE22 /* TweetListView.swift */,
-				C5E9A24027F1A40F007BBE22 /* TweetListRouter.swift */,
-				C5E9A24127F1A40F007BBE22 /* TweetListInteractor.swift */,
-				C5E9A24227F1A40F007BBE22 /* TweetListViewController.swift */,
+				C5B6A9C127F3437400739A81 /* Entity */,
+				C5B6A9C027F3436200739A81 /* Presenter */,
+				C5B6A9BF27F3435300739A81 /* Interactor */,
+				C5B6A9BE27F3434A00739A81 /* Router */,
+				C5B6A9BD27F3433B00739A81 /* View */,
 				C5E9A24327F1A40F007BBE22 /* TweetListConfigurator.swift */,
-				C5E9A24427F1A40F007BBE22 /* TweetListPresenter.swift */,
-				C5B6A9B427F32A1300739A81 /* TweetListEntity.swift */,
-				C5B6A9B627F32C7100739A81 /* TweetListProtocols.swift */,
 			);
 			path = TweetList;
 			sourceTree = "<group>";
@@ -393,7 +430,7 @@
 		C5E9A28827F1C3A6007BBE22 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				C5E9A28927F1C3A6007BBE22 /* NVTweetParseHelperTests.swift */,
+				C5E9A28927F1C3A6007BBE22 /* TweetParseHelperTests.swift */,
 				C5E9A28A27F1C3A6007BBE22 /* MockHelper.swift */,
 				C5E9A28B27F1C3A6007BBE22 /* IncorrectMockTweets.json */,
 			);
@@ -441,7 +478,7 @@
 			isa = PBXGroup;
 			children = (
 				C5E9A2A327F1C3B3007BBE22 /* TweetListWorkerTests.swift */,
-				C5E9A2A427F1C3B3007BBE22 /* NVTweetListInteractorTests.swift */,
+				C5E9A2A427F1C3B3007BBE22 /* TweetListInteractorTests.swift */,
 			);
 			path = TweetList;
 			sourceTree = "<group>";
@@ -457,10 +494,10 @@
 		C5E9A2A627F1C3B3007BBE22 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
-				C5E9A2A727F1C3B3007BBE22 /* NVGetRuleRequestTests.swift */,
-				C5E9A2A827F1C3B3007BBE22 /* NVAddRuleRequestTests.swift */,
-				C5E9A2A927F1C3B3007BBE22 /* NVDeleteRuleRequestTests.swift */,
-				C5E9A2AA27F1C3B3007BBE22 /* NVConnectStreamRequestTests.swift */,
+				C5E9A2A727F1C3B3007BBE22 /* GetRuleRequestTests.swift */,
+				C5E9A2A827F1C3B3007BBE22 /* AddRuleRequestTests.swift */,
+				C5E9A2A927F1C3B3007BBE22 /* DeleteRuleRequestTests.swift */,
+				C5E9A2AA27F1C3B3007BBE22 /* ConnectStreamRequestTests.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -745,7 +782,6 @@
 				C5E9A28427F1A40F007BBE22 /* Reachability.swift in Sources */,
 				C5E9A28027F1A40F007BBE22 /* DeleteRuleRequest.swift in Sources */,
 				C5E9A27F27F1A40F007BBE22 /* ApiRequestProtocol.swift in Sources */,
-				C5B6A9B727F32C7100739A81 /* TweetListProtocols.swift in Sources */,
 				C5E9A26E27F1A40F007BBE22 /* TweetListConfigurator.swift in Sources */,
 				C5E9A28527F1A40F007BBE22 /* TweetParseHelper.swift in Sources */,
 				C5E9A27727F1A40F007BBE22 /* StringExtensions.swift in Sources */,
@@ -774,17 +810,17 @@
 			files = (
 				C5E9A29E27F1C3A6007BBE22 /* TwitterServiceMock.swift in Sources */,
 				C5E9A29D27F1C3A6007BBE22 /* TweetListViewControllerMock.swift in Sources */,
-				C5E9A2AE27F1C3B3007BBE22 /* NVGetRuleRequestTests.swift in Sources */,
-				C5E9A2AF27F1C3B3007BBE22 /* NVAddRuleRequestTests.swift in Sources */,
+				C5E9A2AE27F1C3B3007BBE22 /* GetRuleRequestTests.swift in Sources */,
+				C5E9A2AF27F1C3B3007BBE22 /* AddRuleRequestTests.swift in Sources */,
 				C5E9A29727F1C3A6007BBE22 /* MockHelper.swift in Sources */,
-				C5E9A2B027F1C3B3007BBE22 /* NVDeleteRuleRequestTests.swift in Sources */,
-				C5E9A2B127F1C3B3007BBE22 /* NVConnectStreamRequestTests.swift in Sources */,
+				C5E9A2B027F1C3B3007BBE22 /* DeleteRuleRequestTests.swift in Sources */,
+				C5E9A2B127F1C3B3007BBE22 /* ConnectStreamRequestTests.swift in Sources */,
 				C5E9A29C27F1C3A6007BBE22 /* TweetListRouterMock.swift in Sources */,
-				C5E9A2AD27F1C3B3007BBE22 /* NVTweetListInteractorTests.swift in Sources */,
+				C5E9A2AD27F1C3B3007BBE22 /* TweetListInteractorTests.swift in Sources */,
 				C5E9A29A27F1C3A6007BBE22 /* TweetListPresenterMock.swift in Sources */,
 				C5E9A29B27F1C3A6007BBE22 /* TweetListInteractorMock.swift in Sources */,
 				C57886B027EF3E7100520133 /* TwitterStream_SampleTests.swift in Sources */,
-				C5E9A29627F1C3A6007BBE22 /* NVTweetParseHelperTests.swift in Sources */,
+				C5E9A29627F1C3A6007BBE22 /* TweetParseHelperTests.swift in Sources */,
 				C5E9A2AC27F1C3B3007BBE22 /* TweetListWorkerTests.swift in Sources */,
 				C5E9A29927F1C3A6007BBE22 /* TweetListWorkerMock.swift in Sources */,
 			);
