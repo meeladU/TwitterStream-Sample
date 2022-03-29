@@ -7,7 +7,7 @@ target 'TwitterStream-Sample' do
 
   # Pods for TwitterStream-Sample
   pod 'Alamofire', '~> 5.5'
-
+  pod 'DifferenceKit'
   target 'TwitterStream-SampleTests' do
     inherit! :search_paths
     # Pods for testing
